@@ -1,4 +1,4 @@
 FROM python:3-slim
-ADD testhelloworld.py /
-RUN ./testhelloworld.py
+ADD helloworld.py /
+RUN ./helloworld.py
 
